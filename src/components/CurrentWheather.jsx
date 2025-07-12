@@ -15,7 +15,7 @@ const CurrentWeather = () => {
   const [loading, setLoading ] = useState(true);
   const [listening, setListening] = useState(false)
 
-  const API_KEY = "1e53737b1feaf55b891f388e9ac27211";
+  const API_KEY = "use yours";
 
   useEffect(() => {
     if (navigator.geolocation) {
